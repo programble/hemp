@@ -1,5 +1,7 @@
 # Hemp
 
+[![npm](https://img.shields.io/npm/v/hemp.svg?style=flat-square)](https://www.npmjs.com/package/hemp)
+
 Small JavaScript string builder.
 
 ```
