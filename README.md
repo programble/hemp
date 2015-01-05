@@ -47,7 +47,8 @@ var spell = Hemp('-', 'Hemp is spelled ')('h', 'e', 'm', 'p');
 spell(); // Hemp is spelled h-e-m-p
 
 // And suffixes too!
-var query = Hemp(' ', 'SELECT * ', ';')
+var query = Hemp(' ', null, ';')
+  ('SELECT *')
   ('FROM table')
   ('WHERE column IS NOT NULL')
   ('LIMIT 1');
