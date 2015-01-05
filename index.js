@@ -1,16 +1,11 @@
-function Hemp(prefix, separator, suffix) {
+function Hemp(separator, prefix, suffix) {
   'use strict';
-
-  if (arguments.length === 1) {
-    separator = prefix;
-    prefix = null;
-  }
 
   prefix = prefix || '';
   separator = separator || '';
   suffix = suffix || '';
 
-  var string = '';
+  var string = prefix;
 
   var spin = function spin() {
     if (!arguments.length) return string + suffix;
@@ -18,7 +13,7 @@ function Hemp(prefix, separator, suffix) {
     for (var i in arguments) {
       var fibre = arguments[i];
 
-      if (!string.length) string = prefix + fibre;
+      if (string === prefix) string += fibre;
       else string += separator + fibre;
     }
 
