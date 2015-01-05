@@ -1,0 +1,23 @@
+{
+  "name": "hemp",
+  "version": "0.0.0",
+  "description": "Small JavaScript string builder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/programble/hemp.git"
+  },
+  "keywords": [
+    "string",
+    "builder"
+  ],
+  "author": "Curtis McEnroe <curtis@cmcenroe.me> (http://cmcenroe.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programble/hemp/issues"
+  },
+  "homepage": "https://github.com/programble/hemp"
+}
