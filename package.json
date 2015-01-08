@@ -15,7 +15,7 @@
     "builder"
   ],
   "author": "Curtis McEnroe <curtis@cmcenroe.me> (http://cmcenroe.me)",
-  "license": "Unlicense",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/programble/hemp/issues"
   },
